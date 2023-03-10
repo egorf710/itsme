@@ -12,6 +12,7 @@ body {
   border: 2px solid #ebecf1;
   border-radius: 30px;
   animation: slide-in 1s ease-out;
+  z-index: 10;
 }
 
 .navna {
@@ -54,7 +55,7 @@ ul li ul {
   display: block;
   margin: 12px -12px;
   padding: 0;
-  background: #2a2a2a61;
+  background: #232323;
   border: 2px solid #2a2a2a61;
   border-right: 2px solid #2a2a2a61;
   border-bottom: 2px solid #2a2a2a61;
@@ -100,4 +101,25 @@ ul li:hover ul li a {
   100% {
     top: 15px;
   }
+}
+
+.ContentBlock{
+  align-content: center;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  display: inline-block;
+  border: 2px solid #ebecf1;
+  border-radius: 20px;
+  margin-top: 70px;
+  z-index: 0;
+}
+.ContectText{
+  margin: 1%;
+  color: khaki;
+}
+a{
+  color: rgb(255, 255, 255);
 }
