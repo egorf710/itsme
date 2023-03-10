@@ -6,6 +6,7 @@
 <script src="javascript.js"></script>
 
 <body>
+  
   <nav class="navme">
     <ul>
       <li><a href="#AboutMe" onclick="openCity(event, 'AboutMe')">About me</a></li>
@@ -16,15 +17,38 @@
           <li><a href="#0">MiniDayZ Rebirth</a></li>
         </ul>
       </li>
-      <li><a href="#0">Contact</a></li>
+      <li><a href="#0">Contacts</a></li>
     </ul>
   </nav>
 
   <div class="tabcontent" id="AboutMe">
-    AboutMe TEST
+    <div class="ContentBlock">
+      <p class="ContectText">
+        
+        Егор, программист.<br> Unity +, C# +, Python =, HTML =, Firebase =, CSS -, JS -, Java -.
+        <br> </br>
+        <b>Links</b> - ссылки на мой профиль/мои ресурсы связанные со мной
+        <br>
+        <b>Projects</b> - моё ПО/работы
+        <br>
+        <b>Contacts</b> - связь со мной
+
+      </p>
+      
+    </div>
   </div>
   <div class="tabcontent" id="Links">
-    Links TEST
+    <div class="ContentBlock">
+      <p class="ContectText">
+      
+        <a href="https://i-greentea.itch.io/">https://i-greentea.itch.io/</a> - мои игры, в основнов с GameJam'ов<br>
+        <a href="https://www.youtube.com/@egorf710">https://www.youtube.com/@egorf710</a> - Мой ютуб, в настоящее время девлог по проекту MiniDayZ Rebirth<br>
+      
+      </p>
+      
+    </div>
   </div>
+
+  <script>openCity(null, 'AboutMe')</script>
 </body>
 </html>
